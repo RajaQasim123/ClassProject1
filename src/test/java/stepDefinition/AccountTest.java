@@ -20,6 +20,9 @@ public class AccountTest extends BaseClass {
 		List<Map<String, String>> maps= accountDetail.asMaps(String.class, String.class);
 			for(Map<String,String> map: maps) {
 				
+				
+				
+				
 				driver.findElement(By.linkText("Accounts")).click();
 				driver.findElement(By.xpath("//input[@value=' New ']")).click();
 				
